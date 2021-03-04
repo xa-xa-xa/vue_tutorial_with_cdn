@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(192, 198, 198);
+}
+.v-center {
+  justify-content: center;
+}
+.h-center {
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(19, 19, 19) !important;
+  padding: 1rem 1.5rem;
+  width: 280px;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  border: 4px solid;
+}
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+img { 
+  margin-top: 2rem;
+  align-self: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid;
+}
+h2, h6 {
+  background-color: rgb(19, 19, 19);
+}
+h6 {
+  font-weight: 500;
+}
+
+h2 {
+    margin: 3rem 0 2rem 0;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+button {
+  margin-top: auto;
+    top: 15%;
+    border: none;
+    align-self: center;
+    width: 80%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: 500;
+}
+button:hover{
+  cursor: pointer;
+  /* color: rgb(64, 121, 64); */
+  background-color: rgba(125, 130, 124, 0.736);
+}
+button:focus {
+  outline: none;
+}
+
+.male {
+    border-color: rgba(69, 146, 255, 0.736);
+    background-color: rgba(69, 146, 255, 0.736);
+}
+.female {
+    border-color: rgba(255, 0, 153, 0.736);
+    background-color: rgba(255, 0, 153, 0.736);
+}
